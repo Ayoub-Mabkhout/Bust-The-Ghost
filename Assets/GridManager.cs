@@ -172,14 +172,16 @@ public class GridManager : MonoBehaviour
                 // Error Checking
                 if(!(distance1 == -999 || distance2 == -999)){
 
-                // Compute the probability of Ghost in current cell given the new approximated
-                // range of distances between the current cell and the ghost cell
-                double p_Col_Dist = Proba.MonteCarloProbability(distance1, distance2, 0);
-                // Debug.Log("P_Col_Dist for tile ("+row+","+col+") is " + p_Col_Dist+"+\n For parameters "+distance1+" and " + distance2);
-                
+                    // Compute the probability of Ghost in current cell given the new approximated
+                    // range of distances between the current cell and the ghost cell
+                    double p_Col_Dist = 2 * Proba.MonteCarloProbability(distance1, distance2, 0);
+                    // Debug.Log("P_Col_Dist for tile ("+row+","+col+") is " + p_Col_Dist+"+\n
+                    //For parameters "+distance1+" and " + distance2);
+                    
 
-                // updating the probability table (before normalization)
-                probabilities[row,col] *= p_Col_Dist; // prior probability * probability of color given (approximate) distance from ghost
+                    // updating the probability table (before normalization)
+                    probabilities[row,col] *= p_Col_Dist; // prior probability * probability of color 
+                                                          //given (approximate) distance from ghost
                 }
                 // keep count of the sum of probabilities in order to normalize in the next step
                 

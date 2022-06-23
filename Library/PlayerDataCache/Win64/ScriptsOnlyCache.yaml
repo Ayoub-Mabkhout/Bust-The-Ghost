@@ -11,11 +11,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -58,33 +55,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1516}
+      Script: {instanceID: 1452}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 2426}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2430}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2648}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 2686}
     - Class: 114
-      Script: {instanceID: 3340}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3460}
+      Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 3916}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 23926}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 23934}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 24890}
+      Script: {instanceID: 3922}
     - Class: 114
-      Script: {instanceID: 27496}
+      Script: {instanceID: 4236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -104,6 +101,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -160,6 +163,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LayerHandler
+  - hash:
+      serializedVersion: 2
       Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -196,16 +205,16 @@ ScriptsOnlyBuild:
     className: SpriteSkinUpdateHelper
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Exit
+  - hash:
+      serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: 91d258529db2b5060a913f2afcea1a21
@@ -230,6 +239,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Click
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -406,7 +421,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 572b41e66489c2070854725eef4ab413
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Tile
@@ -452,6 +467,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1954f6d5a2dd363e92963bb097a4ee3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SortingLayerExposer
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -632,31 +653,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LayerHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 1954f6d5a2dd363e92963bb097a4ee3f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SortingLayerExposer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Click
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Exit
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/ayoub/OneDrive/Desktop/test/Bust The Ghost.exe
+  playerPath: C:/Users/ayoub/OneDrive/Documents/Assignments/Spring 2022/Artificial
+    Intelligence/Module 6/Project 3/Bust The Ghost/Bust The Ghost.exe

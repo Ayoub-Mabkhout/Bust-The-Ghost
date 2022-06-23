@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Proba
 {
-    static double stdDev = 1.5F;
+    static double stdDev = 1.0F;
 
 
     // generates a random value following the normal probability distribution given a mean and a standard deviation
